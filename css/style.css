@@ -3,4 +3,81 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+
 }
+
+/*General*/
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+    clear: both;
+    display:table;
+    content: ""
+
+}
+
+ul{
+    list-style: none;
+}
+
+/*header*/
+
+header{
+    text-align: center;
+    
+}
+
+h1{
+    color: #E53170;
+   font-size: 45px;
+   padding: 45px 0;
+}
+
+/*main*/
+.work.space{
+    list-style-type: none;
+
+
+}
+
+p{
+    margin-bottom: 80px;
+}
+
+.cards{
+    background-color: black;
+    width: 380px ;
+    height: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+    color:white;
+   
+   
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+h3{
+    display: inline-block;
+    color: white;
+   
+}
+span{
+    display: inline-block;
+    color: white;
+    
+}
+
+.member-id{
+    padding: 15px;
+  text-align: middle;
+}
+
+
